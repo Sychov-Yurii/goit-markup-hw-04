@@ -389,6 +389,12 @@ margin-bottom: 120px;
     fill: var(--CLOUD);
 }
 
+.team-soc-link:hover {
+    background-color:var(--OCEAN);
+} 
+.team-soc-link:focus {
+    background-color: var(--OCEAN);
+}
 
 
 /* Portfolio */
