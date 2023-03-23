@@ -385,6 +385,10 @@ margin-bottom: 120px;
     justify-content: center;
 }
 
+.team-soc-icon {
+    fill: var(--CLOUD);
+}
+
 
 
 /* Portfolio */
