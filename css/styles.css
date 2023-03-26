@@ -169,6 +169,9 @@ img {
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -182,6 +185,7 @@ img {
     width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
 }
 /*buttons*/
 
@@ -199,7 +203,6 @@ img {
     text-align: center;
     width: 169px;
     height: 56px;
-    margin-top: 48px;
 }
 
 .header-btn:hover {
@@ -338,17 +341,19 @@ margin-bottom: 120px;
     text-transform: capitalize;
     color:var(--NAVY-BLUE);
     padding-top: 120px;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 .hero-container {
     background-color:var(--CLOUD);
-    margin-top: 120px;
+    margin-top: ;
+    text-align: ;
     text-align: center;
 }
 .hero-list {
     display: flex;
     text-align: center;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    margin-top: ;
     gap: 32px;
 }
 .hero-title {
@@ -387,6 +392,8 @@ margin-bottom: 120px;
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 .team-soc-item {
     width: 40px;
@@ -482,7 +489,7 @@ margin-bottom: 120px;
 /*customers*/
 
 .customers {
-   font-style: normal;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -506,6 +513,7 @@ margin-bottom: 120px;
 }
 
 .customers-icon {
+    fill: #8E8F99;
     align-items: center;
     justify-content: center;
     margin-top: 16px;
@@ -514,14 +522,25 @@ margin-bottom: 120px;
     margin-right: 32px;
 }
 
+.customers-list:hover,
+.customers-list:focus {
+    border-color:var(--OCEAN);  
+} 
+
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--OCEAN);
+} 
+
 /*footer*/
 .footer {
     background-color:var(--NAVY-BLUE);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-position {
     width: 264px;
-    padding-top: 100px;
 }
 
 .footer-logo-web {
@@ -541,15 +560,11 @@ margin-bottom: 120px;
 .footer-logo-text {
     color: var(--CORNFLOWER);
     margin-top: 16px;
-    padding-bottom: 100px;
 }
 
 /*footer-soc*/
 
 .footer-soc {
-    width: 208px;
-    height: 80px;
-    margin-top: 100px;
     margin-left: 120px;
 }
 
